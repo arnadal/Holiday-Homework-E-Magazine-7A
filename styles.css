@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+  background-color: yellowgreen;
+  color: white;
+  text-shadow: 0px 0px 5px white;
+  font-family: Poppins;
+  padding: 10%;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: Montserrat;
+}
+#book-frame {
+  padding: 2.5%;
+  background-color: #558000;
+  border-radius: 15px;
+  margin-bottom: 5%;
+  box-shadow: 0px 15px 7.5px #558000;
+}
+a {
+  transition: color 1s, text-shadow 1s;
+  color: #009dff;
+  font-weight: 900;
+  text-decoration: none;
+  text-shadow: 0px 0px 5px #009dff;
+}
+a:hover {
+  color: #0069a8;
+  text-shadow: 0px 0px 5px #0069a8;
+}
